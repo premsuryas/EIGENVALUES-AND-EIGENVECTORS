@@ -14,10 +14,14 @@ use eigen value and vector
 end the program
 
 ## Program:
+```
+
 import numpy as np
 a=[[4,2],[2,4]]
 values,Vectors=np.linalg.eig(a)
 print("Eigen values are",values,"and Eigen Vectors are",Vectors)
+
+```
 
 ## Output:
 ![output](![Screenshot from 2023-11-30 20-08-16](https://github.com/premsuryas/EIGENVALUES-AND-EIGENVECTORS/assets/147473858/6a8b12bb-8b32-42a7-b2b7-4d19b971f16b)
